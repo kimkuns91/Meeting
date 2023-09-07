@@ -36,7 +36,7 @@ export default function App() {
           return <Icon name={iconName} size={size} color={color} />;
         },
       })}>
-        <Tab.Screen name="Home" component={ HomeScreen } />
+        <Tab.Screen name="Home" component={ HomeScreen } screenOptions={{ headerShown: false }}/>
         <Tab.Screen name="Search" component={ SearchScreen } />
         <Tab.Screen name="Chat" component={ ChatScreen } />
         <Tab.Screen name="Profile" component={ ProfileScreen } />
